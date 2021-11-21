@@ -1,0 +1,44 @@
+body {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.dice-container > div {
+  padding: 100px;
+}
+
+#btn {
+  background-color: rgb(255, 184, 71);
+  color: #fff;
+  margin: 175px;
+  padding: 20px 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+#btn:hover {
+  background-color: #fff;
+  color: rgb(255, 184, 71);
+  /* margin: 175px;
+    padding: 20px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none; */
+}
+
+.fas {
+  background: linear-gradient(rgb(255, 184, 71), rgb(255, 184, 71)) right/100%
+    65%;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 300px;
+}
